@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>FAQ</h1>
+    <div id="faq-container">
+      <div class="faq-item">
+        <h3 class="question">What is JavaScript?</h3>
+        <p class="answer">
+          JavaScript is a versatile programming language used for web
+          development, allowing interactive elements on websites.
+        </p>
+        <button class="favorite-btn">Mark as Favorite</button>
+      </div>
+      <div class="faq-item">
+        <h3 class="question">What is Event Bubbling?</h3>
+        <p class="answer">
+          Event bubbling is the process by which an event propagates from the
+          target element to its ancestors.
+        </p>
+        <button class="favorite-btn">Mark as Favorite</button>
+      </div>
+      <div class="faq-item">
+        <h3 class="question">What is Event Delegation?</h3>
+        <p class="answer">
+          Event delegation is a technique where a single event listener is used
+          to manage events for multiple child elements.
+        </p>
+        <button class="favorite-btn">Mark as Favorite</button>
+      </div>
+    </div>
+
+    <div id="controls">
+      <button id="expand-all" class="control-btn">Expand All</button>
+      <button id="collapse-all" class="control-btn">Collapse All</button>
+      <button id="find-location" class="control-btn">Find My Location</button>
+      <span id="visible-count">Visible Answers: 0</span>
+    </div>
+    <div id="location-info"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
